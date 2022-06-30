@@ -11,7 +11,100 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="m-0 min-h-screen">Hello World</main>
+      <main className="py-4 px-8 m-0 min-h-screen">
+        <h1 className="text-4xl font-bold">About 井上公輔</h1>
+        <p>
+          キャッチコピーは<span className="text-red-300">最高の凡人</span>です。
+        </p>
+
+        <h2 className="mt-8 text-3xl font-semibold">プロフィール</h2>
+        <ul className="mt-4">
+          <li>経済学部3年</li>
+          <li>福井県出身</li>
+          <li>クラーク亭でよく食べるのはチキンカツ</li>
+        </ul>
+
+        <h1 className="mt-8 text-2xl font-semibold">人生を変えた3冊</h1>
+        <div>
+          <div className="flex flex-col gap-2 items-center mt-8 lg:flex-row lg:justify-around">
+            <div className="w-72 bg-white rounded-md border">
+              <img
+                className="object-contain w-full h-52 rounded-t-xl border-b-2 border-slate-100 border-solid"
+                src="zorori.jpg"
+                alt="ほいけんた"
+              />
+              <div className="p-4 md:p-5">
+                <h2 className="text-lg font-bold text-gray-800 underline">
+                  <a
+                    href="https://hubcnavi.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    かいけつゾロリ
+                  </a>
+                </h2>
+                <h3 className="mt-0.5 mb-1.5 text-gray-800">原ゆたか</h3>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  まんが
+                </div>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  冒険
+                </div>
+              </div>
+            </div>
+            <div className="w-72 bg-white rounded-md border">
+              <img
+                className="object-contain w-full h-52 rounded-t-xl border-b-2 border-slate-100 border-solid"
+                src="zorori.jpg"
+                alt="ほいけんた"
+              />
+              <div className="p-4 md:p-5">
+                <h2 className="text-lg font-bold text-gray-800 underline">
+                  <a
+                    href="https://hubcnavi.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    かいけつゾロリ
+                  </a>
+                </h2>
+                <h3 className="mt-0.5 mb-1.5 text-gray-800">原ゆたか</h3>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  まんが
+                </div>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  冒険
+                </div>
+              </div>
+            </div>
+            <div className="w-72 bg-white rounded-md border">
+              <img
+                className="object-contain w-full h-52 rounded-t-xl border-b-2 border-slate-100 border-solid"
+                src="zorori.jpg"
+                alt="ほいけんた"
+              />
+              <div className="p-4 md:p-5">
+                <h2 className="text-lg font-bold text-gray-800 underline">
+                  <a
+                    href="https://hubcnavi.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    かいけつゾロリ
+                  </a>
+                </h2>
+                <h3 className="mt-0.5 mb-1.5 text-gray-800">原ゆたか</h3>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  まんが
+                </div>
+                <div className="inline-block py-0.5 px-3 mr-1  text-xs font-medium text-green-800 bg-green-100 rounded-full">
+                  冒険
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };
